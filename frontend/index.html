@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Gestion Lubrifiants</title>
+<style>
+body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:16px;max-width:1100px;margin-left:auto;margin-right:auto}
+header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+nav button{margin-right:8px}
+.table{width:100%;border-collapse:collapse;margin-top:8px}
+.table th,.table td{border:1px solid #ddd;padding:8px;text-align:left}
+.card{padding:12px;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,0.1);margin-bottom:12px}
+.form-row{margin-bottom:8px}
+@media(max-width:600px){header{flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body>
+<header><h1>Gestion Lubrifiants</h1><nav><button id="btn-stock">Stock</button><button id="btn-sales">Ventes</button><button id="btn-reports">Rapports</button></nav></header>
+<main id="main"></main>
+<script src="/app.js"></script>
+</body>
+</html>
